@@ -1,5 +1,8 @@
 Screen {
-    layout: grid;
-    grid-size: 1 2;
-    grid-rows: 90% 10%;
+    layout: vertical;
+}
+
+.view {
+    height: 1fr;
+    border: solid green;
 }

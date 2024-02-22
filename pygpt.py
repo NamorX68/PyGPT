@@ -7,9 +7,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 from textual import on
-from textual.app import App
+from textual.app import App, ComposeResult
 from textual.containers import Grid
-from textual.widgets import Input, RichLog, Header
+from textual.widgets import Input, RichLog, Header, Footer
 
 load_dotenv()
 
@@ -29,11 +29,11 @@ class TexGPT(App):
     output_parser = StrOutputParser()
     chain = prompt | llm | output_parser
 
-    def compose(self):
-        with Grid():
-            yield Header()
-            yield RichLog(id='anzeige', classes='anzeige', wrap=True, highlight=True)
-            yield Input(placeholder='Enter your question', classes='eingabe')
+    def compose(self) -> ComposeResult:
+        yield Header()
+        yield RichLog(id='view', classes='view', wrap=True, highlight=True)
+        yield Input(placeholder='Enter your question', classes='input')
+        yield Footer()
 
     def on_mount(self) -> None:
         self.title = '--PyGPT--'
@@ -43,8 +43,8 @@ class TexGPT(App):
         user_input = self.query_one(Input)
         question = {'input': user_input.value}
         result = self.chain.invoke(question)
-        rich = self.query_one('#anzeige', RichLog)
-        rich.write(f'{user_input.value}\n {result} \n\n')
+        rich = self.query_one('#view', RichLog)
+        rich.write(f'{user_input.value}\n\n {result} \n\n')
         user_input.value = ''
 
 
