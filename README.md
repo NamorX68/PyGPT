@@ -20,4 +20,4 @@ Enter the following command in the git repo directory.
 
 ### Execute
 
-`python pygpt.px`
+`python pygpt.py`
