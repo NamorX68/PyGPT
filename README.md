@@ -19,5 +19,7 @@ Enter the following command in the git repo directory.
 `poetry install`
 
 ### Execute
-
-`python pygpt.py`
+```
+poetry shell
+python pygpt.py or python3 pygpt.py
+```
