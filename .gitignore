@@ -1,4 +1,4 @@
 .env
-test.py
-vertical_layout.tcss
+tests/test_tui.py
+tests/vertical_layout.tcss
 

@@ -4,5 +4,5 @@ Screen {
 
 .view {
     height: 1fr;
-    border: solid green;
+    border: $accent-darken-3;
 }
