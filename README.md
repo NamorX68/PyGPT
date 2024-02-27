@@ -16,7 +16,7 @@ If Poetry is not yet installed, please install it as follows
 
 Enter the following command in the git repo directory.
 
-`poetry install'
+`poetry install`
 
 ### Execute
 
