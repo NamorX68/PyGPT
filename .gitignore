@@ -1,4 +1,2 @@
 .env
-tests/test_tui.py
-tests/vertical_layout.tcss
 
