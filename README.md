@@ -1,5 +1,5 @@
 # PyGPT
-Simple TUI App for ChatGPT
+Simple TUI Chat-App for ChatGPT
 
 ### Clone
 `git clone https://github.com/NamorX68/PyGPT.git`
