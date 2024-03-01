@@ -63,7 +63,9 @@ class TexGPT(App):
         result = self.chat.chain.invoke(question)
 
         rich = self.query_one('#view', RichLog)
-        rich.write(f'{user_input.value}\n\n{result.get('response')}\n\n')
+        response = result.get('response')
+        rich.write(f'''{user_input.value}\n\n{response}\n\n''')
+
         user_input.value = ''
 
 
