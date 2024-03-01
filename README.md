@@ -23,3 +23,8 @@ Enter the following command in the git repo directory.
 poetry shell
 python pygpt.py or python3 pygpt.py
 ```
+
+### Install with Pipx
+```
+pipx install git+https://github.com/NamorX68/PyGPT
+```
