@@ -28,3 +28,7 @@ python pygpt.py or python3 pygpt.py
 ```
 pipx install git+https://github.com/NamorX68/PyGPT
 ```
+#### Execute
+```
+pygpt
+```
