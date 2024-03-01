@@ -69,5 +69,9 @@ class TexGPT(App):
         user_input.value = ''
 
 
-if __name__ == "__main__":
+def main():
     TexGPT().run()
+
+
+if __name__ == "__main__":
+    main()
