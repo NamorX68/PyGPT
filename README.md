@@ -34,7 +34,8 @@ Here you can also enter the desired model and prompt.
 ### Screenshots
 ![image](https://github.com/NamorX68/PyGPT/assets/84579594/2802f055-3e61-41ad-8af5-4e457fc15e5b)
 
-![image](https://github.com/NamorX68/PyGPT/assets/84579594/7303110e-0172-4af9-8e93-63ec79aa7c79)
+![image](https://github.com/NamorX68/PyGPT/assets/84579594/2cb63bde-7542-4517-ab61-edf206d4c968)
+
 
 
 
