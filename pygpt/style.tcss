@@ -2,17 +2,11 @@ Screen {
     layout: vertical;
 }
 
-Header {
-    height: 2;
-    margin: 0 0 1 0;
-}
-
 Footer {
-    height: 1;
     margin: 1 0 0 0;
 }
 
-.view {
+#view {
     height: 1fr;
     border: $accent-darken-3;
 }
@@ -48,7 +42,7 @@ QuestionWindow, ConfigWindow, MessageWindow {
 }
 
 #grd_cw {
-    grid-size: 4;
+    grid-size: 6;
     grid-gutter: 1 1;
     grid-rows: 4;
     padding: 0 1;
@@ -59,7 +53,7 @@ QuestionWindow, ConfigWindow, MessageWindow {
 }
 
 #inp_api_key, #inp_model, #inp_prompt {
-    column-span: 3;
+    column-span: 5;
 }
 
 #inp_prompt {
@@ -67,6 +61,6 @@ QuestionWindow, ConfigWindow, MessageWindow {
 }
 
 #btn_save_cw, #btn_cancel_cw {
-    column-span: 2;
+    column-span: 3;
     width: 100%;
 }

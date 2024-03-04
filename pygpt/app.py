@@ -39,9 +39,9 @@ class TexGPT(App):
         return chat
 
     def compose(self) -> ComposeResult:
-        yield Header()
+        yield Header(show_clock=True)
 
-        yield RichLog(id='view', classes='view', wrap=True, highlight=True)
+        yield RichLog(id='view', wrap=True, highlight=True)
         yield Input(id='input', placeholder='Enter your question')
 
         yield Footer()

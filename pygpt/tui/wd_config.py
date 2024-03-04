@@ -1,4 +1,4 @@
-from textual import on, events
+from textual import on
 from textual.reactive import reactive
 from textual.screen import ModalScreen
 from textual.containers import Grid
