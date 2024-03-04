@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b311ce37-a58c-46ef-9dbf-5d9dd3767ca7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pygpt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/llm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/llm/gpt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/style.tcss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/tui/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/tui/wd_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/tui/wd_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/tui/wd_question.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygpt/utils/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygpt/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.tcss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_gpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gpt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +86,7 @@
       <workItem from="1708937318542" duration="15427000" />
       <workItem from="1709387305185" duration="11308000" />
       <workItem from="1709472937551" duration="882000" />
-      <workItem from="1709480745130" duration="29174000" />
+      <workItem from="1709480745130" duration="30056000" />
     </task>
     <servers />
   </component>
