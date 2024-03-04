@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b311ce37-a58c-46ef-9dbf-5d9dd3767ca7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pygpt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/llm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/llm/gpt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/style.tcss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/tui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/tui/wd_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/tui/wd_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/tui/wd_question.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygpt/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygpt/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.tcss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_gpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gpt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +53,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.app.executor": "Run",
+    "Python.pygpt.executor": "Run",
     "Python.test.executor": "Run",
     "Python.test_gpt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/romanthimian/Documents/Development/PyProjects/PyGPT/tests",
+    "last_opened_file_path": "/Users/romanthimian/Documents/Development/PyProjects/PyGPT/pygpt/tui",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,9 +72,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pygpt/tui" />
       <recent name="$PROJECT_DIR$/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pygpt" />
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -78,7 +99,10 @@
       <workItem from="1708632819143" duration="185000" />
       <workItem from="1708633864999" duration="11651000" />
       <workItem from="1708726900252" duration="754000" />
-      <workItem from="1708937318542" duration="14800000" />
+      <workItem from="1708937318542" duration="15427000" />
+      <workItem from="1709387305185" duration="11308000" />
+      <workItem from="1709472937551" duration="882000" />
+      <workItem from="1709480745130" duration="29174000" />
     </task>
     <servers />
   </component>
@@ -90,6 +114,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyGPT$test_gpt.coverage" NAME="test_gpt Coverage Results" MODIFIED="1709019491752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyGPT$app.coverage" NAME="app Coverage Results" MODIFIED="1709473800943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygpt" />
+    <SUITE FILE_PATH="coverage/PyGPT$pygpt.coverage" NAME="pygpt Coverage Results" MODIFIED="1709473242335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygpt" />
     <SUITE FILE_PATH="coverage/PyGPT$test.coverage" NAME="test Coverage Results" MODIFIED="1708637361475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

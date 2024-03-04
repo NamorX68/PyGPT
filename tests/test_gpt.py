@@ -9,7 +9,7 @@ from langchain.chains import ConversationChain
 load_dotenv()
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
-OPENAI_MODEL = 'gpt-3.5-turbo-0125'
+OPENAI_MODEL = 'llm-3.5-turbo-0125'
 
 llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model_name=OPENAI_MODEL)
 

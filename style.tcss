@@ -1,8 +1,0 @@
-Screen {
-    layout: vertical;
-}
-
-.view {
-    height: 1fr;
-    border: $accent-darken-3;
-}
