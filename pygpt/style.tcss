@@ -1,0 +1,66 @@
+Screen {
+    layout: vertical;
+}
+
+Footer {
+    margin: 1 0 0 0;
+}
+
+#view {
+    height: 1fr;
+    border: $accent-darken-3;
+}
+
+QuestionWindow, ConfigWindow, MessageWindow {
+    align: center middle;
+}
+
+#grid_qw, #grid_msg {
+    grid-size: 2;
+    grid-gutter: 1 2;
+    grid-rows: 1fr 4;
+    padding: 0 1;
+    width: 60;
+    height: 11;
+    border: thick $background 80%;
+    background: $surface;
+}
+
+#lbl_question, #lbl_msg {
+    column-span: 2;
+    height: 1fr;
+    width: 1fr;
+    content-align: center middle;
+}
+
+#btn_ok_qw, #btn_cancel_qw, #btn_ok_msg{
+    width: 100%;
+}
+
+#btn_ok_msg{
+    column-span: 2;
+}
+
+#grd_cw {
+    grid-size: 6;
+    grid-gutter: 1 1;
+    grid-rows: 4;
+    padding: 0 1;
+    width: 70;
+    height: 28  ;
+    border: thick $background 80%;
+    background: $surface;
+}
+
+#inp_api_key, #inp_model, #inp_prompt {
+    column-span: 5;
+}
+
+#inp_prompt {
+    row-span: 2
+}
+
+#btn_save_cw, #btn_cancel_cw {
+    column-span: 3;
+    width: 100%;
+}
