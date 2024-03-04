@@ -32,8 +32,10 @@ After starting the app, please open the settings to store the OPENAI_API_KEY the
 Here you can also enter the desired model and prompt.
 
 ### Screenshots
-![image](https://github.com/NamorX68/PyGPT/assets/84579594/35f34f53-449d-43ed-b43c-ae9c9def3d40)
+![image](https://github.com/NamorX68/PyGPT/assets/84579594/2802f055-3e61-41ad-8af5-4e457fc15e5b)
 
-![image](https://github.com/NamorX68/PyGPT/assets/84579594/42ea27e1-6a7e-4cfd-bd84-f9e839ca91e6)
+![image](https://github.com/NamorX68/PyGPT/assets/84579594/7303110e-0172-4af9-8e93-63ec79aa7c79)
+
+
 
 
