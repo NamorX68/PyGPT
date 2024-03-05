@@ -35,6 +35,7 @@ Here you can also enter the desired model and prompt.
 ![image](https://github.com/NamorX68/PyGPT/assets/84579594/848a543b-78ac-4bdb-ad31-3f645c6646ac)
 
 
+
 ![image](https://github.com/NamorX68/PyGPT/assets/84579594/51818569-df3a-417a-8830-5ad17a728b86)
 
 
