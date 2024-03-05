@@ -23,7 +23,8 @@ if not config_path.is_file():
         'model': 'gpt-3.5-turbo-0125',
         'memory': '4',
         'prompt': 'System: You are world class programmer. Just give back the pure code '
-                  'without any explanations or something else. The code as markdown. Give the answer in german.\n'
+                  'without any explanations or something else. Return me the result in the form of markdown. '
+                  'Give the answer in german.\n'
                   'Human: {question}'
     }
     write_config_file(init_config)
