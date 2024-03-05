@@ -32,7 +32,8 @@ class TexGPT(App):
             chat = GptApi(
                 self.app_config.get('openai_api_key'),
                 self.app_config.get('model', 'gpt-3.5-turbo-0125'),
-                self.app_config.get('prompt')
+                self.app_config.get('prompt'),
+                self.app_config.get('memory', 4)
             )
         else:
             chat = None

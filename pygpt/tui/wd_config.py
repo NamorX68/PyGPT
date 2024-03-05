@@ -25,6 +25,9 @@ class ConfigWindow(ModalScreen[bool]):
             Label('Model', id='lbl_model'),
             Input(id='inp_model', placeholder='llm....'),
 
+            Label('Memory', id='lbl_memory'),
+            Input(id='inp_memory'),
+
             Label('Prompt', id='lbl_prompt'),
             TextArea(id='inp_prompt'),
 
@@ -38,12 +41,14 @@ class ConfigWindow(ModalScreen[bool]):
         self.title = self.win_titel
         self.query_one('#inp_api_key', Input).value = self.config.get('openai_api_key')
         self.query_one('#inp_model', Input).value = self.config.get('model')
+        self.query_one('#inp_memory', Input).value = self.config.get('memory')
         self.query_one('#inp_prompt', TextArea).insert(self.config.get('prompt'))
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         if event.button.id == 'btn_save_cw':
             self.config['openai_api_key'] = self.query_one('#inp_api_key', Input).value
             self.config['model'] = self.query_one('#inp_model', Input).value
+            self.config['memory'] = self.query_one('#inp_memory', Input).value
             self.config['prompt'] = self.query_one('#inp_prompt', TextArea).document.text
             write_config_file(self.config)
             self.dismiss(True)

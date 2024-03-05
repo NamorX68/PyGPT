@@ -47,12 +47,12 @@ QuestionWindow, ConfigWindow, MessageWindow {
     grid-rows: 4;
     padding: 0 1;
     width: 70;
-    height: 28  ;
+    height: 32;
     border: thick $background 80%;
     background: $surface;
 }
 
-#inp_api_key, #inp_model, #inp_prompt {
+#inp_api_key, #inp_model, #inp_prompt, #inp_memory {
     column-span: 5;
 }
 
