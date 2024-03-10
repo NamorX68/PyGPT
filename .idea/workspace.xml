@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b311ce37-a58c-46ef-9dbf-5d9dd3767ca7" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygpt/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygpt/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygpt/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygpt/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +96,7 @@
       <workItem from="1709589123315" duration="988000" />
       <workItem from="1709637797587" duration="1267000" />
       <workItem from="1709651505110" duration="124000" />
+      <workItem from="1710074741414" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
