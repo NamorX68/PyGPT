@@ -28,6 +28,9 @@ class ConfigWindow(ModalScreen[bool]):
             Label('Memory', id='lbl_memory'),
             Input(id='inp_memory'),
 
+            Label('Temperature', id='lbl_temperature'),
+            Input(id='inp_temperature'),
+
             Label('Prompt', id='lbl_prompt'),
             TextArea(id='inp_prompt'),
 
@@ -42,6 +45,7 @@ class ConfigWindow(ModalScreen[bool]):
         self.query_one('#inp_api_key', Input).value = self.config.get('openai_api_key')
         self.query_one('#inp_model', Input).value = self.config.get('model')
         self.query_one('#inp_memory', Input).value = self.config.get('memory')
+        self.query_one('#inp_temperature', Input).value = self.config.get('temperature')
         self.query_one('#inp_prompt', TextArea).insert(self.config.get('prompt'))
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
@@ -49,6 +53,7 @@ class ConfigWindow(ModalScreen[bool]):
             self.config['openai_api_key'] = self.query_one('#inp_api_key', Input).value
             self.config['model'] = self.query_one('#inp_model', Input).value
             self.config['memory'] = self.query_one('#inp_memory', Input).value
+            self.config['temperature'] = self.query_one('#inp_temperature', Input).value
             self.config['prompt'] = self.query_one('#inp_prompt', TextArea).document.text
             write_config_file(self.config)
             self.dismiss(True)
