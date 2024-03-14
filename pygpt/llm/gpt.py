@@ -5,11 +5,11 @@ from langchain.prompts import PromptTemplate
 
 
 class GptApi:
-    def __init__(self, api_key: str, model: str, prompt: str, memory: int = 4) -> None:
+    def __init__(self, api_key: str, model: str, prompt: str, memory: int=4, temperature: float=0.0) -> None:
         self.OPENAI_API_KEY = api_key
         self.OPENAI_MODEL = model
 
-        self.llm = ChatOpenAI(openai_api_key=self.OPENAI_API_KEY, model=model)
+        self.llm = ChatOpenAI(openai_api_key=self.OPENAI_API_KEY, model=model, temperature=temperature)
 
         self.chain = ConversationChain(
             llm=self.llm,

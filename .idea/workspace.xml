@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b311ce37-a58c-46ef-9dbf-5d9dd3767ca7" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygpt/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygpt/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygpt/style.tcss" beforeDir="false" afterPath="$PROJECT_DIR$/pygpt/style.tcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygpt/tui/wd_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygpt/tui/wd_config.py" afterDir="false" />
-    </list>
+    <list default="true" id="b311ce37-a58c-46ef-9dbf-5d9dd3767ca7" name="Changes" comment="Implementation `Temperature` for the ChatGpt model. New input field for this in the Settings dialog." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <workItem from="1709637797587" duration="1267000" />
       <workItem from="1709651505110" duration="124000" />
       <workItem from="1710074741414" duration="304000" />
-      <workItem from="1710338041532" duration="912000" />
+      <workItem from="1710338041532" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -107,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709588797861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementation `Temperature` for the ChatGpt model. New input field for this in the Settings dialog.">
+      <option name="closed" value="true" />
+      <created>1710339168991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710339168991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Implementation `Temperature` for the ChatGpt model. New input field for this in the Settings dialog." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation `Temperature` for the ChatGpt model. New input field for this in the Settings dialog." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyGPT$test_gpt.coverage" NAME="test_gpt Coverage Results" MODIFIED="1709019491752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
