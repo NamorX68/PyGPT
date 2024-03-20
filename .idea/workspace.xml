@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b311ce37-a58c-46ef-9dbf-5d9dd3767ca7" name="Changes" comment="Implementation `Temperature` for the ChatGpt model. New input field for this in the Settings dialog.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygpt/style.tcss" beforeDir="false" afterPath="$PROJECT_DIR$/pygpt/style.tcss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +98,8 @@
       <workItem from="1710614251095" duration="27000" />
       <workItem from="1710614366397" duration="25000" />
       <workItem from="1710614682853" duration="3000" />
+      <workItem from="1710854108410" duration="930000" />
+      <workItem from="1710962684554" duration="534000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

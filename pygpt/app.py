@@ -12,6 +12,8 @@ from pygpt.tui.wd_config import ConfigWindow
 from pygpt.tui.wd_message import MessageWindow
 from pygpt.tui.wd_question import QuestionWindow
 
+import openai
+
 
 class TexGPT(App):
     CSS_PATH = "style.tcss"
@@ -80,12 +82,15 @@ class TexGPT(App):
             pc.copy(response)
             self.query_one("#input").value = ""
 
+        except openai.OpenAIError as e:
+            self.query_one("#input", Input).value = ""
+            self.push_screen(
+                MessageWindow("Open the settings and check the OPENAI_API_KEY\n\n " f"{e}")
+            )
         except Exception as e:
             self.query_one("#input", Input).value = ""
             self.push_screen(
-                MessageWindow(
-                    " No OPENAI_API_KEY was stored or the key is incorrect. " "Open the settings and check the OPENAI_API_KEY"
-                )
+                MessageWindow(f"{e}")
             )
 
 
