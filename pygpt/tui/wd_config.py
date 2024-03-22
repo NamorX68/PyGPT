@@ -1,4 +1,3 @@
-from textual import on
 from textual.reactive import reactive
 from textual.screen import ModalScreen
 from textual.containers import Grid
@@ -42,14 +41,14 @@ class ConfigWindow(ModalScreen[bool]):
 
     def on_mount(self) -> None:
         self.title = self.win_titel
-        self.query_one('#inp_api_key', Input).value = self.config.get('openai_api_key')
-        self.query_one('#inp_model', Input).value = self.config.get('model')
-        self.query_one('#inp_memory', Input).value = self.config.get('memory')
-        self.query_one('#inp_temperature', Input).value = self.config.get('temperature')
-        self.query_one('#inp_prompt', TextArea).insert(self.config.get('prompt'))
+        self.query_one('#inp_api_key', Input).value = self.config.get('openai_api_key', None)
+        self.query_one('#inp_model', Input).value = self.config.get('model', 'gpt-3.5-turbo-0125')
+        self.query_one('#inp_memory', Input).value = self.config.get('memory', '4')
+        self.query_one('#inp_temperature', Input).value = self.config.get('temperature', '0')
+        self.query_one('#inp_prompt', TextArea).insert(self.config.get('prompt', ''))
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
-        if event.button.id == 'btn_save_cw':
+        if event.button.id == 'btn_save_cw': 
             self.config['openai_api_key'] = self.query_one('#inp_api_key', Input).value
             self.config['model'] = self.query_one('#inp_model', Input).value
             self.config['memory'] = self.query_one('#inp_memory', Input).value
@@ -60,7 +59,3 @@ class ConfigWindow(ModalScreen[bool]):
         else:
             self.dismiss(False)
 
-    @on(Input.Submitted, '#inp_api_key')
-    def test(self, input_field: Input) -> None:
-        model = self.query_one('#inp_model', Input)
-        model.value = input_field.value

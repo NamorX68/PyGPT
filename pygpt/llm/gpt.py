@@ -9,7 +9,7 @@ class GptApi:
         self.OPENAI_API_KEY = api_key
         self.OPENAI_MODEL = model
 
-        self.llm = ChatOpenAI(openai_api_key=self.OPENAI_API_KEY, model=model, temperature=temperature)
+        self.llm = ChatOpenAI(openai_api_key=self.OPENAI_API_EY, model=model, temperature=temperature)
 
         self.chain = ConversationChain(
             llm=self.llm,
